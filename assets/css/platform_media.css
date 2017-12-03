@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1024px) {
+body{
+	overflow:scroll;
+	}
+#header {
+	width:100%;
+	text-align:center !important;
+	}
+#container{
+	width:94%;
+	}
+}
+@media (max-width: 768px) {
+.side_grid{
+	float:none;
+	width:100%;
+	margin:0px;
+	}
+.side_grid:first-child{
+	width:100%;
+	margin:0px;
+	}
+.filter_container h1{
+	color:#05cc7f;
+	font-size: 32px;	
+	}
+}
+@media (min-width: 320px) and (max-width: 1021px) {
+
+}
+
+@media (max-width: 640px) {
+
+    #header img {
+	width: 300px;
+        float:left;
+	}
+        .arrow_box {
+            left:0;
+        }
+        
+        body h4.job-desc {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.container {width:100%;}
+}
+
+@media (max-width: 480px) {
+#header img {
+	width: 150px;
+        float:left;
+	}
+         .arrow_box {left:0; top:60px;}
+body h1 {
+    font-size: 35px;
+    }
+}
+
